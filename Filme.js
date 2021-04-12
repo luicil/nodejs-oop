@@ -1,6 +1,6 @@
 class Filme{
-    constructor(){
-        this.titulo = "";
+    constructor(cTitulo){
+        this.titulo = cTitulo;
         this.ano = 0;
         this.genero = "";
         this.diretor = "";
@@ -25,7 +25,7 @@ class Filme{
     };
 };
 
-var vingadores = new Filme();
+var vingadores = new Filme("Os vingadores");
 
 vingadores.Reproduzir();
 
@@ -33,4 +33,3 @@ var hulk = new Filme();
 var starWars = new Filme();
 
 starWars.titulo = 100;
-ß
